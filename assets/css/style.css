@@ -1,0 +1,320 @@
+.ui-loader {
+  display: none;
+}
+
+body {
+  background: url('../img/parchment.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.curtain-menu-button-toggle {
+  width: 5rem;
+  height:5rem;
+}
+
+#coverLetter * {
+  font-family: 'Lora';
+}
+
+#coverLetter h1,
+#coverLetter h3 {
+  text-transform: none;
+}
+
+#start {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  display: table;
+  height: 100vh;
+}
+
+#start #content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#lacrimosa {
+  display: none;
+}
+
+#letter {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+}
+
+#startOverDiv {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+}
+
+#tutorial {
+  margin: auto;
+  position: absolute;
+  bottom: 200px;
+  max-width: 25%;
+  left: 0;
+  right: 0;
+}
+
+#circles {
+  position: absolute;
+  bottom: 140px;
+  width: 220px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 2;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-size: contain !important;
+  text-align: center;
+  line-height: 50px;
+}
+
+#greenCircle {
+  background: url('../img/greencircle.png') no-repeat;
+  float:left;
+}
+
+#blueCircle {
+  background: url('../img/bluecircle.png') no-repeat;
+  float:right;
+}
+
+#piano {
+  width: 100vw;
+  height: 162px;
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+}
+
+#piano .key {
+  position: absolute;
+  display: none;
+}
+
+#scoreCover {
+  height: 90vh;
+  display: table;
+  margin:auto;
+}
+
+#score {
+  margin: 0;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#score li {
+  background: url('../img/score.png') no-repeat;
+  height:300px;
+  display: none;
+  list-style: none;
+  margin: auto;
+}
+
+#score #s1 {
+  width:417px;
+}
+
+#score #s2 {
+  width: 331px;
+  background-position: -414px 0;
+}
+
+#score #s3 {
+  width: 348px;
+  background-position: -743px 0;
+}
+
+#score #s4 {
+  width: 398px;
+  background-position: 0 -322px;
+}
+
+#score #s5 {
+  width: 347px;
+  background-position: -396px -322px;
+}
+
+#score #s6 {
+  width: 350px;
+  background-position: -741px -322px;
+}
+
+#score #s7 {
+  width: 411px;
+  background-position: 0px -632px;
+}
+
+#score #s8 {
+  width: 323px;
+  background-position: -408px -632px;
+}
+
+#score #s9 {
+  width: 363px;
+  background-position: -728px -632px;
+}
+
+#score #s10 {
+  width: 395px;
+  background-position: 0 -905px;
+}
+
+#score #s11 {
+  width: 352px;
+  background-position: -392px -905px;
+}
+
+#score #s12 {
+  width: 349px;
+  background-position: -742px -905px;
+}
+
+#score #s13 {
+  width: 381px;
+  background-position: 0 -1203px;
+}
+
+#score #s14 {
+  width: 303px;
+  background-position: -379px -1203px;
+}
+
+#score #s15 {
+  width: 411px;
+  background-position: -680px -1203px;
+}
+
+#score #s16 {
+  width: 352px;
+  background-position: -1224px -6px;
+}
+
+#score #s17 {
+  width: 350px;
+  background-position: -1574px -6px;
+}
+
+#score #s18 {
+  width: 401px;
+  background-position: -1921px -6px;
+}
+
+#score #s19 {
+  width: 381px;
+  background-position: -1224px -314px;
+}
+
+#score #s20 {
+  width: 362px;
+  background-position: -1603px -314px;
+}
+
+#score #s21 {
+  width: 352px;
+  background-position: -1963px -314px;
+}
+
+#score #s22 {
+  width: 377px;
+  background-position: -1224px -606px;
+}
+
+#score #s23 {
+  width: 366px;
+  background-position: -1598px -606px;
+}
+
+#score #s24 {
+  width: 357px;
+  background-position: -1957px -606px;
+}
+
+#score #s25 {
+  width: 416px;
+  background-position: -1224px -905px;
+}
+
+#score #s26 {
+  width: 366px;
+  background-position: -1637px -905px;
+}
+
+#score #s27 {
+  width: 314px;
+  background-position: -2001px -905px;
+}
+
+#score #s28 {
+  width: 411px;
+  background-position: -1224px -1216px;
+}
+
+#score #s29 {
+  width: 344px;
+  background-position: -1632px -1216px;
+}
+
+#score #s30 {
+  width: 120px;
+  background-position: -1973px -1216px;
+}
+
+#score #s31 {
+  width: 110px;
+  background-position: -2090px -1216px;
+}
+
+#score #s32 {
+  width: 118px;
+  background-position: -2197px -1216px;
+}
+
+@media screen and (max-width: 39.9375em) {
+  body,
+  #start,
+  #letter {
+    height: calc(var(--vh, 1vh) * 100);
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+
+  #scoreCover {
+    height: calc(var(--vh, 1vh) * 80);
+  }
+
+  #start {
+    width: 100vw;
+  }
+
+  #score {
+    zoom: 0.8;
+  }
+
+  #piano {
+    background: url('../img/pianomobile.png') no-repeat center top;
+    height: 145px;
+    background-size: cover;
+  }
+
+  #piano img {
+    display: none;
+  }
+
+  #tutorial {
+    max-width: 100%;
+  }
+}
